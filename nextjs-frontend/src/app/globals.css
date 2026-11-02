@@ -1,0 +1,15 @@
+:root { color-scheme: light; font-family: Arial, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; color: #172033; background: #f5f7fb; }
+main { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+a { color: #155eef; text-decoration: none; }
+a:hover { text-decoration: underline; }
+nav { display: flex; gap: 1rem; align-items: center; padding: 1rem max(1rem, calc((100% - 900px) / 2)); background: #172033; }
+nav a { color: white; }
+.card { background: white; border: 1px solid #dfe4ec; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+.row { display: flex; justify-content: space-between; gap: 1rem; align-items: center; }
+button, input { font: inherit; padding: .55rem .75rem; }
+button { cursor: pointer; border: 0; border-radius: 5px; background: #155eef; color: white; }
+ul { padding-left: 1.25rem; }
+.modal-backdrop { position: fixed; inset: 0; background: #0008; display: grid; place-items: center; }
+.modal { width: min(90vw, 500px); background: white; border-radius: 8px; padding: 1.5rem; }
